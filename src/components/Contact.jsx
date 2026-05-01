@@ -13,8 +13,11 @@ const Contact = () => {
         </p>
         <a href="mailto:kkhalidkhan23@gmail.com" className="contact-email-btn btn btn-primary">
           <Mail size={20} />
-          kkhalidkhan23@gmail.com
+          Send Me an Email
         </a>
+        <p className="contact-direct-email">
+          Or reach out directly at: <strong>kkhalidkhan23@gmail.com</strong>
+        </p>
         <div className="contact-socials">
           <a href="https://github.com/flamekaizerr" target="_blank" rel="noreferrer" className="social-link">
             <Github size={20} />
