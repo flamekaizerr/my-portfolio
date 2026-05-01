@@ -117,3 +117,18 @@
   color: var(--text-primary);
 }
 
+.show-more-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.show-more-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 2rem;
+  font-size: 0.95rem;
+  border-radius: 50px;
+}
+

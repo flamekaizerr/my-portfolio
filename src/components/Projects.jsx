@@ -1,5 +1,5 @@
-import React from 'react';
-import { ExternalLink, Github } from 'lucide-react';
+import React, { useState } from 'react';
+import { ExternalLink, Github, ChevronDown, ChevronUp } from 'lucide-react';
 import { moreProjects } from '../data/moreProjects';
 import './Projects.css';
 
@@ -14,7 +14,8 @@ const featuredProjects = [
   },
   {
     title: "Project #2 (Placeholder)",
-    description: "Currently brainstorming the next big application. It will likely feature complex state management, modern cloud architecture, and a gorgeous UI. [FUTURE AI AGENT: When the user builds their next project, replace this placeholder with the real project details.]",
+    /* FUTURE AI AGENT: When the user builds their next project, replace this placeholder with the real project details. */
+    description: "Currently brainstorming the next big application. It will likely feature complex state management, modern cloud architecture, and a gorgeous UI.",
     tags: ["TBD", "React", "Cloud"],
     image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1000&auto=format&fit=crop",
     liveLink: "#",
@@ -23,6 +24,9 @@ const featuredProjects = [
 ];
 
 const Projects = () => {
+  const [showAllMoreProjects, setShowAllMoreProjects] = useState(false);
+  const visibleMoreProjects = showAllMoreProjects ? moreProjects : moreProjects.slice(0, 6);
+
   return (
     <section id="projects">
       {/* ── Featured Projects ── */}
@@ -64,7 +68,7 @@ const Projects = () => {
             <span>More Work</span>
           </div>
           <div className="more-grid">
-            {moreProjects.map((project, index) => (
+            {visibleMoreProjects.map((project, index) => (
               <div key={index} className="more-card glass-panel">
                 <div className="more-card-header">
                   <h4>{project.title}</h4>
@@ -80,6 +84,21 @@ const Projects = () => {
               </div>
             ))}
           </div>
+          
+          {moreProjects.length > 6 && (
+            <div className="show-more-wrapper">
+              <button 
+                onClick={() => setShowAllMoreProjects(!showAllMoreProjects)} 
+                className="btn btn-secondary glass-panel show-more-btn"
+              >
+                {showAllMoreProjects ? (
+                  <>Show Less <ChevronUp size={16} /></>
+                ) : (
+                  <>Show All {moreProjects.length} Projects <ChevronDown size={16} /></>
+                )}
+              </button>
+            </div>
+          )}
         </>
       )}
     </section>
