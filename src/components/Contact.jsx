@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="contact-wrapper glass-panel">
         <p className="contact-subtitle">
           I'm actively looking for opportunities. Whether you have a project in mind, 
-          a job opening, or just want to connect — my inbox is always open.
+          a job opening, or just want to connect, my inbox is always open.
         </p>
         <a href="mailto:kkhalidkhan23@gmail.com" className="contact-email-btn btn btn-primary">
           <Mail size={20} />

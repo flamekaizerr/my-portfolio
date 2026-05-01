@@ -13,7 +13,7 @@ const About = () => {
           </p>
           <br />
           <p>
-            During my postgraduate journey, I discovered a passion for applied AI — specifically, 
+            During my postgraduate journey, I discovered a passion for applied AI: specifically, 
             making powerful machine learning models accessible through clean, well-designed web interfaces. 
             I taught myself the full modern stack: <strong>React</strong> for expressive frontends, 
             <strong> FastAPI</strong> for high-performance Python backends, and 
@@ -21,7 +21,7 @@ const About = () => {
           </p>
           <br />
           <p>
-            I build complete, production-ready applications — not just toy demos. Every project I ship 
+            I build complete, production-ready applications, not just toy demos. Every project I ship 
             has a live URL, a clean codebase on GitHub, and is containerized for the cloud. 
             I am actively looking for opportunities where I can bring this technical curiosity, 
             deep theoretical knowledge, and full-stack execution to a real-world product team.
