@@ -4,7 +4,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
-import Footer from './components/Footer'
+import Contact from './components/Contact'
 import './index.css'
 
 function App() {
@@ -22,8 +22,11 @@ function App() {
           <About />
           <Skills />
           <Projects />
+          <Contact />
         </main>
-        <Footer />
+        <footer style={{ textAlign: 'center', padding: '2rem 0', color: 'var(--text-secondary)', fontSize: '0.85rem' }}>
+          © {new Date().getFullYear()} Khalid Khan. Built with React & Vite.
+        </footer>
       </div>
     </>
   )

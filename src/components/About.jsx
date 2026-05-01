@@ -8,21 +8,23 @@ const About = () => {
       <div className="about-content glass-panel">
         <div className="about-text">
           <p>
-            I am a highly motivated Computer Science professional holding an <strong>M.Tech degree</strong>. 
-            My passion lies at the intersection of complex algorithms and beautiful user experiences.
+            I am a Computer Science postgraduate holding an <strong>M.Tech degree</strong>, 
+            with a strong foundation in complex algorithms, data structures, and software engineering principles.
           </p>
           <br />
           <p>
-            Unlike traditional backend engineers, I believe that powerful Artificial Intelligence is useless 
-            if it isn't accessible. That's why I specialize in building complete, end-to-end applications — 
-            from fine-tuning Hugging Face Transformers and designing scalable APIs with FastAPI, to crafting 
-            stunning, responsive glassmorphism interfaces in React.
+            During my postgraduate journey, I discovered a passion for applied AI — specifically, 
+            making powerful machine learning models accessible through clean, well-designed web interfaces. 
+            I taught myself the full modern stack: <strong>React</strong> for expressive frontends, 
+            <strong> FastAPI</strong> for high-performance Python backends, and 
+            <strong> Hugging Face Transformers</strong> for state-of-the-art NLP.
           </p>
           <br />
           <p>
-            When I'm not coding, I'm constantly learning about the latest advancements in LLMs and modern 
-            web architecture. I'm currently looking for opportunities where I can leverage my full-stack AI skills 
-            to build impactful products.
+            I build complete, production-ready applications — not just toy demos. Every project I ship 
+            has a live URL, a clean codebase on GitHub, and is containerized for the cloud. 
+            I am actively looking for opportunities where I can bring this technical curiosity, 
+            deep theoretical knowledge, and full-stack execution to a real-world product team.
           </p>
         </div>
       </div>

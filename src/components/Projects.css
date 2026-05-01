@@ -34,6 +34,7 @@
   color: var(--text-secondary);
   margin-bottom: 1.5rem;
   flex: 1;
+  line-height: 1.7;
 }
 
 .project-tags {
@@ -55,3 +56,64 @@
   display: flex;
   gap: 1rem;
 }
+
+.plink-btn {
+  padding: 0.5rem 1rem !important;
+  font-size: 0.9rem;
+  border-radius: 50px;
+}
+
+/* ── More Work Section ── */
+.more-work-divider {
+  display: flex;
+  align-items: center;
+  margin: 4rem 0 2.5rem;
+  gap: 1rem;
+}
+
+.more-work-divider::before,
+.more-work-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border-color);
+}
+
+.more-work-divider span {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.more-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.more-card {
+  padding: 1.5rem;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.more-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.more-card-header h4 {
+  font-size: 1.1rem;
+}
+
+.more-card-header a {
+  color: var(--text-secondary);
+  transition: color 0.2s ease;
+}
+
+.more-card-header a:hover {
+  color: var(--text-primary);
+}
+
