@@ -13,13 +13,12 @@ const featuredProjects = [
     githubLink: "https://github.com/flamekaizerr/ai-sentiment-analyzer"
   },
   {
-    title: "Project #2 (Placeholder)",
-    /* FUTURE AI AGENT: When the user builds their next project, replace this placeholder with the real project details. */
-    description: "Currently brainstorming the next big application. It will likely feature complex state management, modern cloud architecture, and a gorgeous UI.",
-    tags: ["TBD", "React", "Cloud"],
-    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1000&auto=format&fit=crop",
-    liveLink: "#",
-    githubLink: "#"
+    title: "AI Resume Analyzer",
+    description: "A full-stack resume screening platform that compares resumes against job descriptions, detects skill gaps, scores fit across multiple dimensions, and delivers concise recruiter-style improvement suggestions.",
+    tags: ["React", "FastAPI", "Hugging Face", "Transformers", "SQLite", "Vercel"],
+    image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=1000&auto=format&fit=crop",
+    liveLink: "https://ai-resume-analyzer-three-eosin.vercel.app",
+    githubLink: "https://github.com/flamekaizerr/ai-resume-analyzer"
   }
 ];
 
