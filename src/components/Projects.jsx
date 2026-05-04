@@ -19,6 +19,14 @@ const featuredProjects = [
     image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=1000&auto=format&fit=crop",
     liveLink: "https://ai-resume-analyzer-three-eosin.vercel.app",
     githubLink: "https://github.com/flamekaizerr/ai-resume-analyzer"
+  },
+  {
+    title: "AI Meeting Audio Summarizer",
+    description: "Upload meeting audio, generate accurate transcripts using Groq Whisper, summarize discussions, and extract actionable items with OpenRouter Gemma in a polished, responsive dashboard.",
+    tags: ["React", "FastAPI", "Supabase", "Groq Whisper", "OpenRouter", "Docker"],
+    image: "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=1000&auto=format&fit=crop",
+    liveLink: "https://frontend-flax-three-43.vercel.app",
+    githubLink: "https://github.com/flamekaizerr/ai-meeting-summarizer"
   }
 ];
 
