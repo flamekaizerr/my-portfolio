@@ -27,6 +27,14 @@ const featuredProjects = [
     image: "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=1000&auto=format&fit=crop",
     liveLink: "https://frontend-flax-three-43.vercel.app",
     githubLink: "https://github.com/flamekaizerr/ai-meeting-summarizer"
+  },
+  {
+    title: "Taskflow",
+    description: "A full-stack task management web app with real-time CRUD operations, dynamic project boards, and a clean, responsive UI designed for productivity. Manage tasks, track progress, and stay organized with an intuitive workflow.",
+    tags: ["React", "Node.js", "Express", "MongoDB", "Vercel"],
+    image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?q=80&w=1000&auto=format&fit=crop",
+    liveLink: "#",
+    githubLink: "https://github.com/flamekaizerr/taskflow"
   }
 ];
 
