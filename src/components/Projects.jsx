@@ -30,10 +30,10 @@ const featuredProjects = [
   },
   {
     title: "Taskflow",
-    description: "A full-stack task management web app with real-time CRUD operations, dynamic project boards, and a clean, responsive UI designed for productivity. Manage tasks, track progress, and stay organized with an intuitive workflow.",
-    tags: ["React", "Node.js", "Express", "MongoDB", "Vercel"],
+    description: "A full-stack task and project management app where teams share a board to track projects and tickets. Features a role-based system with admins and members, JWT authentication, and a clean React UI backed by a FastAPI + SQLite backend.",
+    tags: ["React", "FastAPI", "SQLAlchemy", "SQLite", "JWT", "Railway", "Vercel"],
     image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?q=80&w=1000&auto=format&fit=crop",
-    liveLink: "#",
+    liveLink: "https://taskflow-three-murex.vercel.app",
     githubLink: "https://github.com/flamekaizerr/taskflow"
   }
 ];
